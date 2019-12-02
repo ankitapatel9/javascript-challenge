@@ -9,7 +9,7 @@ function newTableData(data){
         Object.entries(ufoData).forEach(([key, value]) => {
         console.log(key, value);
         //   Append a cell to the row for each value
-        // in the weather report object
+        // in the object
         var cell = row.append("td");
         cell.text(value);
         });
